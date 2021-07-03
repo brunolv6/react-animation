@@ -59,9 +59,9 @@ class Animacao extends React.Component{
             .setTween(timeLineProcessor)
             .addTo(controller);
 
-        function updatePercentage() {
-       timeLineProcessor.progress();
-        }
+        // function updatePercentage() {
+        //     timeLineProcessor.progress();
+        // }
     }
 
     render() {
